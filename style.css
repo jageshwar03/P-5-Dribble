@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+ height: 100%;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.nav{
+    height: 8vh;
+    width: 95vw;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.nav_left{
+height: 8vh;
+width: 47.5vw;
+/* background-color: red; */
+display: flex;
+align-items: center;
+gap: 5vh;
+}
+.nav_left h5{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 4vh;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(61, 61, 78);
+
+}
+.nav_left a{
+   text-decoration: none;
+   font-size: 2.3vh;
+}
+
+
+.nav_right{
+     height: 8vh;
+     width: 47.5vw;
+     /* background: blue;  */
+     display: flex;
+    align-items: center; 
+    justify-content: end;
+    padding-right: 1vh;
+    gap: 2vh;
+}
+.nav_right button{
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  font-size: 2.5vh;
+} 
+#signup{
+background-color: rgb(255, 255, 255);
+border:none;
+font-size: 2.5vh;
+}
+#login{
+background-color: black;
+color: azure;
+font-size: 2.5vh;
+border-radius: 4vh;
+padding-left: 2vh;
+padding-right: 2vh;
+padding-bottom: 1.5vh;
+padding-top: 1.5vh;
+}
+
+/* header start here !! */
+
+.discover{
+   height: 70vh;
+   width: 95vw;
+   background-color: rgb(255, 255, 255); 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.discover_1 h4{
+    text-align: center;
+    font-size: 8vh;
+    font-weight: lighter;
+}
+
+.discover_2 p{
+   text-align: center;  
+   font-size: 2.8vh;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   font-weight: lighter;
+   
+}
+
+.discover_3{
+    display: flex;
+    gap: 45vh;
+    margin-top: 2vh;
+    align-items: center;
+    background-color: rgba(217, 229, 239, 0.833);
+    border: 2px solid palevioletred;
+    padding-left: 10vh;
+    padding-right: 5vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    border-radius: 3vh;
+}
+
+.para_input p{
+  font-size: 2.2vh;
+}
+
+.short_select{
+  display: flex;
+  align-items: center;  
+}
+
+.ri-search-line{
+    padding-left: 2vh;
+    background-color: deeppink;
+    padding: 1vh;
+    margin-left: 2vh;
+    border-radius: 50%;
+    font-size: 4vh;
+}
+
+select{
+    padding-left: 1.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 2vh;
+    border: none;
+    border-radius: 1vh;
+}
+
+.discover_4{
+ margin-top: 4.5vh;
+ /* background-color: greenyellow; */
+ padding-left: 15vh;
+ padding-right: 15vh;
+padding-top: 2vh;
+padding-bottom: 2vh;
+display: flex;
+gap: 5vh;
+}
+.discover_4 a{
+   text-decoration: none;
+   font-size: 2.3vh;
+   background-color: rgba(196, 206, 215, 0.84);
+   padding-left: 2vh;
+   padding-right: 2vh;
+   padding-top: 0.5vh;
+   padding-bottom: 0.5vh;
+   border-radius: 2vh;
+}
