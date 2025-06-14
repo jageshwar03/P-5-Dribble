@@ -162,3 +162,98 @@ gap: 5vh;
    padding-bottom: 0.5vh;
    border-radius: 2vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer part start here !! */
+
+footer{
+    height: 50vh;
+    width: 95vw;
+    background-color: red;
+
+}
+
+.top_footer{
+height: 25vh;
+width: 95vw;
+background-color: chocolate;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.top_footer_part1 h5{
+ font-size: 3vh;
+ font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ padding-left: 1vh;
+
+}
+.top_footer_part2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 7vh; 
+}
+.top_footer_part2 a{
+    text-decoration: none;
+    font-size: 2vh;
+}
+.top_footer_part3{
+ padding-right: 1vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5vh;
+ font-size: 3.5vh;
+}
+
+
+.bottum_footer{
+    height: 25vh;
+    width: 95vw;
+    background-color: rgb(46, 1, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottum_footer_left{
+ display: flex;
+ align-items: center;
+ gap: 2vh;
+ color: white;
+ padding-left: 1vh;
+}
+.bottum_footer_left a{
+     text-decoration: none;
+     color: #FFFFFF;
+}
+
+.bottum_footer_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding-right: 1vh;
+}
+.bottum_footer_right a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
